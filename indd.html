@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <script src="valid.js">
+
+  </script>
+  <body>
+     <div class="container">
+        <form name = "myform" method="post" onsubmit="validate()">
+     <h1><center>pizza order form  </center> </h1>
+
+    <label> Name</label>
+    <input type="text" name="fname" class="input" id="name" placeholder="Name"><br>
+
+    <label> Email </label>
+    <input type="text" name="email" class="input" id="email" placeholder="enter@adress"> <br>
+
+    <label> Phone: </label>
+    <input type="text" name="phone" class="input" id="phone" placeholder="enter no.">
+     <br>
+
+
+
+    <hr>
+
+
+    <p> <strong> Select the type of pizza:</strong>  </p>
+    <input type="radio" id="simply veg"  name="fav_language" value="simply veg">
+    <label for="simply veg">simply veg</label>
+     <input type="radio" id="veg supreme" name="fav_language"  value="veg supreme">
+     <label for="veg supreme">veg supreme</label>
+     <input type="radio" id="veg delight" name="fav_language" value="veg delight">
+     <label for="veg delight">veg delight</label>
+<hr>
+
+   <p> <strong> Select the size of pizza:</strong>  </p>
+   <input type="radio" id="personal pan "  name="dish1" value="personal pan">
+   <label for="personal pan">personal pan</label>
+    <input type="radio" id="veg supreme" name="dish1"  value="medium">
+    <label for="medium">medium</label>
+    <input type="radio" id="large" name="dish1" value="large">
+    <label for="large">large</label>
+<hr>
+
+  <p> <strong> Select the crust of pizza:</strong>  </p>
+  <input type="radio" id="thin"  name="dish11" value="thin ">
+  <label for="thin">thin</label>
+   <input type="radio" id="normal" name="dish11"  value="normal">
+   <label for="normal">normal</label>
+   <input type="radio" id="special" name="dish11" value="special">
+   <label for="special">special</label>
+<hr>
+
+ <label for="payements">Select payments option:</label>
+
+<select name="payements" id="payements">
+  <option value="cod">COD</option>
+  <option value="credit cards">credit cards</option>
+  <option value="debit cards">debit cards</option>
+  <option value="paytm">paytm</option>
+</select> <br>
+<hr>
+
+<input type="checkbox" id="terms " name="terms" value="terms">
+<label for="terms"> Agree terms & conditions</label><br>
+<hr>
+
+
+
+<input type="submit"  value="submit">
+</form></div>
+
+  </body>
+</html>
